@@ -1,0 +1,20 @@
+INFO:     127.0.0.1:58974 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63239 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63475 - "POST /trigger HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63475 - "POST /assess HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60623 - "GET /incidents?limit=10 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55648 - "GET /incidents?limit=10 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62457 - "POST /safe/01D6B8D1?device_id=kavach-001 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62457 - "POST /safe/01D6B8D1?device_id=kavach-001 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62457 - "POST /safe/01D6B8D1?device_id=kavach-001 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62457 - "POST /safe/01D6B8D1?device_id=kavach-001 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62457 - "POST /safe/01D6B8D1?device_id=kavach-001 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62457 - "POST /safe/01D6B8D1?device_id=kavach-001 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62457 - "POST /safe/01D6B8D1?device_id=kavach-001 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62457 - "POST /safe/01D6B8D1?device_id=kavach-001 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62457 - "POST /safe/01D6B8D1?device_id=kavach-001 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62457 - "POST /safe/01D6B8D1?device_id=kavach-001 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:62457 - "POST /safe/01D6B8D1?device_id=kavach-001 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:53265 - "GET /incidents?limit=10 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60209 - "GET / HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:60209 - "GET /favicon.ico HTTP/1.1" 404 Not Found

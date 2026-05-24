@@ -1,0 +1,13 @@
+{
+  "n_qubits": 4,
+  "n_layers": 2,
+  "seed": 42,
+  "features": [
+    "mean_pitch",
+    "pitch_variance",
+    "speech_rate",
+    "pause_ratio"
+  ],
+  "dataset": "RAVDESS (or synthetic fallback)",
+  "final_loss": 0.5127128632312933
+}

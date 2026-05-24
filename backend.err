@@ -1,0 +1,56 @@
+INFO:     Will watch for changes in these directories: ['C:\\Users\\pooji\\Downloads\\kavach_voiceshield\\kavach']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [26464] using WatchFiles
+2026-05-23 17:24:01.696 | WARNING  | encryption.pqc:<module>:33 - liboqs not installed. Using AES-256-GCM demo mode. Install: pip install liboqs-python
+2026-05-23 17:24:01.742 | INFO     | encryption.pqc:_generate_keypair:65 - Demo keypair generated (AES-256 fallback)
+INFO:     Started server process [9076]
+INFO:     Waiting for application startup.
+2026-05-23 17:24:01.831 | INFO     | backend.main:lifespan:46 - \U0001f6e1\ufe0f  Kavach VoiceShield starting...
+2026-05-23 17:24:02.865 | INFO     | quantum.classifier:load:65 - QML model loaded | Qubits: 4 | Layers: 2
+2026-05-23 17:24:02.866 | INFO     | backend.main:lifespan:48 - \u2705 QML classifier ready
+2026-05-23 17:24:02.866 | INFO     | backend.main:lifespan:49 - \u2705 PQC scheme: Kyber512
+INFO:     Application startup complete.
+2026-05-23 17:29:35.968 | INFO     | backend.main:receive_trigger:130 - [01D6B8D1] Trigger received from kavach-001 | word='kavach'
+2026-05-23 17:29:35.969 | DEBUG    | backend.websocket_manager:send_to_device:48 - Device kavach-001 not connected via WS (REST fallback)
+2026-05-23 17:29:36.099 | INFO     | backend.main:assess_threat:182 - [01D6B8D1] QML: score=0.424 \u2192 Level 2 | method=QML_VQC
+INFO:     127.0.0.1:54922 - "WebSocket /ws/dashboard" [accepted]
+2026-05-23 17:30:02.465 | INFO     | backend.websocket_manager:connect_dashboard:16 - Dashboard connected | total: 1
+INFO:     connection open
+INFO:     127.0.0.1:59135 - "WebSocket /ws/dashboard" [accepted]
+2026-05-23 17:30:37.482 | INFO     | backend.websocket_manager:connect_dashboard:16 - Dashboard connected | total: 2
+INFO:     connection open
+INFO:     connection closed
+2026-05-23 17:31:22.758 | INFO     | backend.main:mark_safe:288 - [01D6B8D1] SAFE confirmed by kavach-001
+2026-05-23 17:31:22.759 | DEBUG    | backend.websocket_manager:send_to_device:48 - Device kavach-001 not connected via WS (REST fallback)
+2026-05-23 17:31:24.984 | INFO     | backend.main:mark_safe:288 - [01D6B8D1] SAFE confirmed by kavach-001
+2026-05-23 17:31:24.986 | DEBUG    | backend.websocket_manager:send_to_device:48 - Device kavach-001 not connected via WS (REST fallback)
+2026-05-23 17:31:25.662 | INFO     | backend.main:mark_safe:288 - [01D6B8D1] SAFE confirmed by kavach-001
+2026-05-23 17:31:25.679 | DEBUG    | backend.websocket_manager:send_to_device:48 - Device kavach-001 not connected via WS (REST fallback)
+2026-05-23 17:31:25.834 | INFO     | backend.main:mark_safe:288 - [01D6B8D1] SAFE confirmed by kavach-001
+2026-05-23 17:31:25.835 | DEBUG    | backend.websocket_manager:send_to_device:48 - Device kavach-001 not connected via WS (REST fallback)
+2026-05-23 17:31:25.991 | INFO     | backend.main:mark_safe:288 - [01D6B8D1] SAFE confirmed by kavach-001
+2026-05-23 17:31:25.993 | DEBUG    | backend.websocket_manager:send_to_device:48 - Device kavach-001 not connected via WS (REST fallback)
+2026-05-23 17:31:26.142 | INFO     | backend.main:mark_safe:288 - [01D6B8D1] SAFE confirmed by kavach-001
+2026-05-23 17:31:26.144 | DEBUG    | backend.websocket_manager:send_to_device:48 - Device kavach-001 not connected via WS (REST fallback)
+2026-05-23 17:31:26.300 | INFO     | backend.main:mark_safe:288 - [01D6B8D1] SAFE confirmed by kavach-001
+2026-05-23 17:31:26.302 | DEBUG    | backend.websocket_manager:send_to_device:48 - Device kavach-001 not connected via WS (REST fallback)
+2026-05-23 17:31:26.458 | INFO     | backend.main:mark_safe:288 - [01D6B8D1] SAFE confirmed by kavach-001
+2026-05-23 17:31:26.459 | DEBUG    | backend.websocket_manager:send_to_device:48 - Device kavach-001 not connected via WS (REST fallback)
+2026-05-23 17:31:26.608 | INFO     | backend.main:mark_safe:288 - [01D6B8D1] SAFE confirmed by kavach-001
+2026-05-23 17:31:26.610 | DEBUG    | backend.websocket_manager:send_to_device:48 - Device kavach-001 not connected via WS (REST fallback)
+2026-05-23 17:31:26.747 | INFO     | backend.main:mark_safe:288 - [01D6B8D1] SAFE confirmed by kavach-001
+2026-05-23 17:31:26.749 | DEBUG    | backend.websocket_manager:send_to_device:48 - Device kavach-001 not connected via WS (REST fallback)
+2026-05-23 17:31:26.963 | INFO     | backend.main:mark_safe:288 - [01D6B8D1] SAFE confirmed by kavach-001
+2026-05-23 17:31:26.965 | DEBUG    | backend.websocket_manager:send_to_device:48 - Device kavach-001 not connected via WS (REST fallback)
+INFO:     connection closed
+INFO:     127.0.0.1:53682 - "WebSocket /ws/dashboard" [accepted]
+2026-05-23 17:33:04.730 | INFO     | backend.websocket_manager:connect_dashboard:16 - Dashboard connected | total: 1
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:56796 - "WebSocket /ws/dashboard" [accepted]
+2026-05-23 20:34:09.498 | INFO     | backend.websocket_manager:connect_dashboard:16 - Dashboard connected | total: 1
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:57621 - "WebSocket /ws/dashboard" [accepted]
+2026-05-23 20:59:12.773 | INFO     | backend.websocket_manager:connect_dashboard:16 - Dashboard connected | total: 1
+INFO:     connection open

@@ -1,0 +1,15 @@
+
+> kavach-dashboard@1.0.0 dev
+> next dev -p 3000
+
+  ▲ Next.js 14.2.0
+  - Local:        http://localhost:3000
+
+ ✓ Starting...
+ ✓ Ready in 4.5s
+ ○ Compiling / ...
+ ✓ Compiled / in 2.8s (260 modules)
+ GET / 200 in 3140ms
+ GET / 200 in 365ms
+ GET / 200 in 33ms
+ GET / 200 in 42ms
