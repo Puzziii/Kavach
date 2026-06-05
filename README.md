@@ -1,33 +1,8 @@
-<div align="center">
-
-```
-██╗  ██╗ █████╗ ██╗   ██╗ █████╗  ██████╗██╗  ██╗
-██║ ██╔╝██╔══██╗██║   ██║██╔══██╗██╔════╝██║  ██║
-█████╔╝ ███████║██║   ██║███████║██║     ███████║
-██╔═██╗ ██╔══██║╚██╗ ██╔╝██╔══██║██║     ██╔══██║
-██║  ██╗██║  ██║ ╚████╔╝ ██║  ██║╚██████╗██║  ██║
-╚═╝  ╚═╝╚═╝  ╚═╝  ╚═══╝  ╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝
-```
-
-### **Voice-triggered. Quantum-secured. Always ready.**
-
-*Sanskrit: कवच — Armour*
-
-<br/>
-
-[![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
-[![PennyLane](https://img.shields.io/badge/PennyLane-0.36-000000?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PGNpcmNsZSBjeD0iMTIiIGN5PSIxMiIgcj0iMTAiIGZpbGw9IiNmZmYiLz48L3N2Zz4=&logoColor=black)](https://pennylane.ai)
-[![FastAPI](https://img.shields.io/badge/FastAPI-0.115-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
-[![Next.js](https://img.shields.io/badge/Next.js-14-000000?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org)
-[![ESP32](https://img.shields.io/badge/ESP32--S3-ElatoAI-E7352C?style=for-the-badge&logo=espressif&logoColor=white)](https://elatoai.com)
-[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
-
-<br/>
 
 > *Every 4 minutes, a crime against a woman is reported in India.*
 > *She had a phone. She couldn't reach it in time.*
 >
-> **Kavach gives her one word.**
+> **VOIVA gives her one word.**
 
 <br/>
 
@@ -37,7 +12,7 @@
 
 ---
 
-## What Is Kavach?
+## What Is Voiva?
 
 Kavach is a **wearable voice-AI safety device** built on ESP32 hardware. When a woman whispers her secret trigger word, the system:
 
@@ -50,7 +25,17 @@ Kavach is a **wearable voice-AI safety device** built on ESP32 hardware. When a 
 
 All of this in **under 2 seconds**. Without touching her phone.
 
----
+<br>
+
+[![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+[![PennyLane](https://img.shields.io/badge/PennyLane-0.36-000000?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PGNpcmNsZSBjeD0iMTIiIGN5PSIxMiIgcj0iMTAiIGZpbGw9IiNmZmYiLz48L3N2Zz4=&logoColor=black)](https://pennylane.ai)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.115-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
+[![Next.js](https://img.shields.io/badge/Next.js-14-000000?style=for-the-badge&logo=next.js&logoColor=white)](https://nextjs.org)
+[![ESP32](https://img.shields.io/badge/ESP32--S3-ElatoAI-E7352C?style=for-the-badge&logo=espressif&logoColor=white)](https://elatoai.com)
+[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
+
+</br>
+
 
 ## Demo
 
@@ -67,7 +52,7 @@ All of this in **under 2 seconds**. Without touching her phone.
 ### Trigger → Alert in One Flow
 
 ```
-She whispers "Kavach"
+She whispers "Voiva"
         │
         ▼
 [ElatoAI ESP32] ──I2S audio──▶ [Gemini Live API]
