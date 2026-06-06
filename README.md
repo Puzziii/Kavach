@@ -427,11 +427,7 @@ Test coverage includes:
 
 ---
 
-<div align="center">
 
-**Built at QX Hack 2026 · Bengaluru**
-
-*"We didn't build an app. We built a guardian."*
 
 <br/>
 
